@@ -1,0 +1,1 @@
+rsync $1 -az --force --delete --progress --exclude-from=.rsyncignore ./ $REMOTE_USER@$REMOTE_HOST:$REMOTE_PATH
